@@ -20,8 +20,3 @@ with open('subdivisions.py', "wb") as data_file:
     pickle.dump(subdivisions, data_file)
 
 
-with open('subdivisions.py', 'rb') as file:
-    loaded_data = pickle.load(file)
-
-print('Loaded data:', loaded_data)
-
